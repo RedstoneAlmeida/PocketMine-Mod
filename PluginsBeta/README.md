@@ -1,0 +1,2 @@
+## Plugins Beta
+- SimpleAuth
