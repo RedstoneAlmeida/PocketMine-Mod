@@ -75,38 +75,6 @@ Have different commands and different things, taking what worked in all possible
 - Helping Scripts
 - Create ideas for PocketMine-Mod
 
-## English | Inglês
-
-Pocket Mine-Mod is a modification to the Minecraft Pocket Edition game, which is based on PocketMine-MP (To servers)
-If PocketMine-Mod will not start a server, but the server commands, javascript plugins and others ...
-
-## How will it Work?
-Have different commands and different things, taking what worked in all possible versions, for example, 0.12.1, 0.13.1, 0.13.2, 0.14.0 ... always
-
-## What you did was already Added?
-- Commands
-- Optimization
-- Directory to Save Files (soon configured files)
-- Support the plugins within the APi
-- Support for 256 MB of RAM
-- Plugins in .modpkg
-
-## What did add?
-- More Slots (your choice)
-- Supports direct plugins folder PocketMineMod
-- Proxy with support for Windows 10, PC, Linux / Mac
-- Third Mods Support (support more blocks or even modpacks)
-- Support for plugins in ".jar, .php, .phar"
-- Able to Run with 128 MB of RAM
-- GUI support
-- Support MySql and YAML
-- More Commands
-- Website Support
-
-## Contribution
-- Helping Scripts
-- Create ideas for PocketMine-Mod
-
 ## Servers to Use PocketMine-Mod
 
 - pocketjava.ddns.net : 19132
