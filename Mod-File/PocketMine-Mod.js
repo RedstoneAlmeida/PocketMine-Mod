@@ -1,4 +1,4 @@
-print("PocketMine-Mod Carregado com Sucesso");
+print("PocketMine-Mod Carregado com Sucesso!");
 
 function procCmd(cmd){
 	var cmd = cmd.split(" ")
