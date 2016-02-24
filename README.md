@@ -38,11 +38,10 @@ Terão diversos comandos e coisas diferentes, tirando que funcionara em todas as
 - Criar ideias para o PocketMine-Mod
 
 ## Servers que usam PocketMine-Mod
-- | Endereço de IP | PORTA |
-- | pocketjava.ddns.net | 19132 |
-- | betamine.sytes.org | 19132 |
-- | brtest.ddns.net | 19132 |
-- | realms.tk | 19132 |
+
+- pocketjava.ddns.net : 19132
+- betamine.ddns.net : 19132
+- brtest.ddns.net : 19132
 
 ## English | Inglês
 
@@ -110,8 +109,6 @@ Have different commands and different things, taking what worked in all possible
 
 ## Servers to Use PocketMine-Mod
 
-- |IP|PORT|
-- |----|:-------:|
-- |pocketjava.ddns.net|19132|
-- |betamine.ddns.net|19132|
-- |brtest.ddns.net|19132|
+- pocketjava.ddns.net : 19132
+- betamine.ddns.net : 19132
+- brtest.ddns.net : 19132
