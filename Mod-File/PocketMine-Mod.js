@@ -1,6 +1,10 @@
 print("PocketMine-Mod Carregado com Sucesso");
 print("Use /help 1 para ver os comandos");
 
+var codeVersion = 0.3;
+var codeName = PocketMine-Mod;
+var codeProtocol = 43;
+
 function procCmd(cmd){
 	var cmd = cmd.split(" ")
 	if(cmd[0] == "gamemode"){
@@ -23,6 +27,31 @@ function procCmd(cmd){
 			clientMessage("§bYour Change Gamemode for §e0");
 			}
 			}
+			if(cmd[0] == "setspawn"){
+				clientMessage("spawn setado em:");
+				clientMessage("X: " + Math.round(Player.getX()) + " , Y: " + Math.round(Player.getY()) + " , Z: " + Math.round(Player.getZ()));
+		
+				var x = getPlayerX();
+				var y = getPlayerY();
+				var z = getPlayerZ();
+		
+		Level.setSpawn(x, y, z);
+	}
+		if(cmd[0] == "tpadd"){
+		var tpX = getPlayerX();
+		var tpY = getPlayerY();
+		var tpZ = getPlayerZ();
+		
+		clientMessage("Teleport adicionado em:");
+		clientMessage("X: " + Math.round(Player.getX()) + " , Y: " + Math.round(Player.getY()) + " , Z: " + Math.round(Player.getZ()));
+		clientMessage("Usa §c/teleport §fpra transportar");
+		clientMessage("As coordenadas estão salvas");
+	}
+	
+	if(cmd[0] == "teleport"){
+		clientMessage("Teportando...");
+		setPosition(getPlayerEnt(), tpX, tpY+1,tpZ);
+	}
 			if(cmd[0] == "time"){
 				if(cmd[1] == "set"){
 					if(cmd[2] == "day"){
@@ -53,16 +82,16 @@ function procCmd(cmd){
 										clientMessage("§a/time set §ftime set Day and Night");
 										clientMessage("§a/heal §fhealing your life");
 										clientMessage("§a/kill §fkill you");
-										
+										clientMessage("§a/setspawn §fset world spawn");
 										clientMessage("§a/stop §fstopping your world");
-										
+										clientMessage("§a/tpadd §fselecione as coordenadas para teleportar");
 										clientMessage("§a/setspawn §fset seu spawn do mundo");
 										clientMessage("§bUse §e/help 2");
 										}
 										if(cmd[1] == "2"){
 										clientMessage("§6=> §bHelp  2§6<=");
 										clientMessage("§a/ticks §f[speed/default/slow]");
-										
+										clientMessage("§a/teleport §fuse para teleportar as coordenadas salvas");
 										clientMessage("§a/explode §fexplode area");
 										clientMessage("§a/setblock §f[stone/quartz]");
 										clientMessage("§a/version §fpocketmine-mod version");
@@ -98,7 +127,7 @@ function procCmd(cmd){
 																		}
 																		}
 																		if(cmd[0] == "version"){
-																			clientMessage("§ePocketMine-Mod v1 ○ 0.13.1 ○ by RedstoneAlmeida");
+																			clientMessage("§ePocketMine-Mod Beta 0.3 ○ 0.14.0 ○ by RedstoneAlmeida");
 																			}
 																			if(cmd[0] == "xp"){
 																				if(cmd[1] == "1"){
@@ -138,6 +167,10 @@ function procCmd(cmd){
 function newLevel(){
 	clientMessage("§bUse §a/help 1");
 	clientMessage("§bPocketMine Commands Mod by §eRedstoneAlmeida");
+	
+	clientMessage(" ")
+	
+	clientMessage("§eLoading §bSimpleAuth §eand §bWorldEdit")
 
 }
 function modTick(){
