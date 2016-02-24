@@ -7,6 +7,10 @@
 Importe a pasta SimpleAuthSounds para "/sdcard/PocketMineMod/plugins/"
 Instale o SimpleAuth em seu BlockLauncher e jogue
 
+- Instalação do WorldEdit:
+
+Instale o WorldEdit em seu BlockLauncher e jogue
+
 
 ## English / Inglês
 
@@ -14,3 +18,7 @@ Instale o SimpleAuth em seu BlockLauncher e jogue
 
 SimpleAuth the Sounds folder to "/sdcard/PocketMineMod/plugins/"
 Install SimpleAuth on your BlockLauncher and play
+
+- Installation of WorldEdit:
+
+Install WorldEdit on your BlockLauncher and play
