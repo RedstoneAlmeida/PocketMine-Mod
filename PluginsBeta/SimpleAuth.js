@@ -43,7 +43,7 @@ function procCmd(cmd){
 
 /* Variaveis */
 	
-var path = android.os.Environment.getExternalStorageDirectory().getAbsolutePath() + "/games/com.mojang/SimpleAuthSounds";
+var path = android.os.Environment.getExternalStorageDirectory().getAbsolutePath() + "/games/PocketMineMod/plugins/SimpleAuthSounds";
 
 var ply = new android.media.MediaPlayer();
 
