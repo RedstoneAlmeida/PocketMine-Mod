@@ -38,13 +38,11 @@ Terão diversos comandos e coisas diferentes, tirando que funcionara em todas as
 - Criar ideias para o PocketMine-Mod
 
 ## Servers que usam PocketMine-Mod
-| Endereço de IP | PORTA |
-|-----------|
-| pocketjava.ddns.net | 19132 |
-| betamine.sytes.org | 19132 |
-| brtest.ddns.net | 19132 |
-| realms.tk | 19132 |
-|-----------|
+- | Endereço de IP | PORTA |
+- | pocketjava.ddns.net | 19132 |
+- | betamine.sytes.org | 19132 |
+- | brtest.ddns.net | 19132 |
+- | realms.tk | 19132 |
 
 ## English | Inglês
 
@@ -77,44 +75,6 @@ Have different commands and different things, taking what worked in all possible
 ## Contribution
 - Helping Scripts
 - Create ideas for PocketMine-Mod
-# PocketMine-Mod
-Javascript Minecraft PocketEdition Mod from BlockLauncher based in PocketMine-MP 
-
-## Status
-
- [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
-
-## Português | Portuguese
-
-PocketMine-Mod e uma Modificação ao jogo Minecraft PocketEdition, que é baseado em PocketMine-MP(Para fazer servers)
-No caso PocketMine-Mod não iniciará um servidor, e sim comandos ao servidor, plugins em javascript entre outros...
-
-## Como irá Funcionar?
-Terão diversos comandos e coisas diferentes, tirando que funcionara em todas as versões possiveis, por exemplo, 0.12.1, 0.13.1, 0.13.2, 0.14.0... sempre
-
-## Oque ja foi Adicionado?
-- Comandos
-- Otimização
-- Diretorio para Salvar os Arquivos(em breve arquivos configurados)
-- Suporte a plugins dentro da APi
-- Suporte a 256 MB de RAM
-- Plugins em .modpkg
-
-## Oque adicionará?
-- Mais Slots (sua escolha)
-- Suporte a plugins direto da pasta PocketMineMod
-- Proxy com suporte à Windows10, PC, Linux/Mac
-- Suporte a Mods terceiros(suporte a mais blocos ou até modpacks)
-- Suporte a plugins em ".jar, .php, .phar"
-- Capaz de Rodar com 128 MB de RAM
-- Suporte a GUI
-- Suporte a MySql e YAML
-- Mais Comandos
-- Suporte a WebSite
-
-## Contribuição
-- Ajudar em Scripts
-- Criar ideias para o PocketMine-Mod
 
 ## English | Inglês
 
@@ -149,10 +109,9 @@ Have different commands and different things, taking what worked in all possible
 - Create ideas for PocketMine-Mod
 
 ## Servers to Use PocketMine-Mod
-| IP | PORT |
-|-----------|
-| pocketjava.ddns.net | 19132 |
-| betamine.sytes.org | 19132 |
-| brtest.ddns.net | 19132 |
-| realms.tk | 19132 |
-|-----------|
+
+- |IP|PORT|
+- |----|:-------:|
+- |pocketjava.ddns.net|19132|
+- |betamine.ddns.net|19132|
+- |brtest.ddns.net|19132|
