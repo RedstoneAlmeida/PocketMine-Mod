@@ -4,7 +4,7 @@
 
 - Instalação do SimpleAuth:
 
-Importe a pasta SimpleAuthSounds para "/sdcard/games/com.mojang/"
+Importe a pasta SimpleAuthSounds para "/sdcard/PocketMineMod/plugins/"
 Instale o SimpleAuth em seu BlockLauncher e jogue
 
 
@@ -12,5 +12,5 @@ Instale o SimpleAuth em seu BlockLauncher e jogue
 
 - Installation of SimpleAuth:
 
-SimpleAuth the Sounds folder to "/sdcard/games/com.mojang/"
+SimpleAuth the Sounds folder to "/sdcard/PocketMineMod/plugins/"
 Install SimpleAuth on your BlockLauncher and play
