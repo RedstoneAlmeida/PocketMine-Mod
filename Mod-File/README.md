@@ -37,6 +37,12 @@ Terão diversos comandos e coisas diferentes, tirando que funcionara em todas as
 - Ajudar em Scripts
 - Criar ideias para o PocketMine-Mod
 
+## Servers que usam PocketMine-Mod
+
+- pocketjava.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
+- betamine.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
+- brtest.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
+
 ## English | Inglês
 
 Pocket Mine-Mod is a modification to the Minecraft Pocket Edition game, which is based on PocketMine-MP (To servers)
@@ -68,3 +74,9 @@ Have different commands and different things, taking what worked in all possible
 ## Contribution
 - Helping Scripts
 - Create ideas for PocketMine-Mod
+
+## Servers to Use PocketMine-Mod
+
+- pocketjava.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
+- betamine.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
+- brtest.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
