@@ -39,9 +39,9 @@ Terão diversos comandos e coisas diferentes, tirando que funcionara em todas as
 
 ## Servers que usam PocketMine-Mod
 
-- pocketjava.ddns.net : 19132
-- betamine.ddns.net : 19132
-- brtest.ddns.net : 19132
+- pocketjava.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
+- betamine.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
+- brtest.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
 
 ## English | Inglês
 
@@ -77,6 +77,6 @@ Have different commands and different things, taking what worked in all possible
 
 ## Servers to Use PocketMine-Mod
 
-- pocketjava.ddns.net : 19132
-- betamine.ddns.net : 19132
-- brtest.ddns.net : 19132
+- pocketjava.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
+- betamine.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
+- brtest.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
