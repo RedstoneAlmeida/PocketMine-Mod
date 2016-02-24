@@ -1,4 +1,4 @@
-print("Properties dê PocketMine-Mod carregadas");
+print("Properties dê PocketMine-Mod carregado");
 
 var PMRunMod = {};
 
