@@ -1,6 +1,10 @@
 # PocketMine-Mod
 Javascript Minecraft PocketEdition Mod from BlockLauncher based in PocketMine-MP 
 
+## Status
+
+ [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
+
 ## Português | Portuguese
 
 PocketMine-Mod e uma Modificação ao jogo Minecraft PocketEdition, que é baseado em PocketMine-MP(Para fazer servers)
