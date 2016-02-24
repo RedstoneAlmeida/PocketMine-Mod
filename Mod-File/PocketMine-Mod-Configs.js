@@ -1,3 +1,5 @@
+print("Properties dê PocketMine-Mod carregadas");
+
 var PMRunMod = {};
 
 function newLevel(){
