@@ -3,6 +3,7 @@ function newLevel(){
         Entity.setMaxHealth(getPlayerEnt(), 6);
         if(Entity.getHealth(getPlayerEnt()) > 6){
             Entity.setHealth(getPlayerEnt(), 6);
+            Level.setGameMode(0);
         }
     }
 }
