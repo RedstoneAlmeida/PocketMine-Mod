@@ -1,9 +1,12 @@
 # PocketMine-Mod
-Javascript Minecraft PocketEdition Mod from BlockLauncher based in PocketMine-MP 
+JavaScript Minecraft PocketEdition Mod from BlockLauncher based in PocketMine-MP 
 
 ## Status
 
  [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
+ 
+## Baixar
+- https://github.com/RedstoneAlmeida/PocketMine-Mod/archive/master.zip
 
 ## Português | Portuguese
 
@@ -37,11 +40,8 @@ Terão diversos comandos e coisas diferentes, tirando que funcionara em todas as
 - Ajudar em Scripts
 - Criar ideias para o PocketMine-Mod
 
-## Servers que usam PocketMine-Mod
-
-- pocketjava.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
-- betamine.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
-- brtest.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
+## Download
+- https://github.com/RedstoneAlmeida/PocketMine-Mod/archive/master.zip
 
 ## English | Inglês
 
@@ -75,8 +75,3 @@ Have different commands and different things, taking what worked in all possible
 - Helping Scripts
 - Create ideas for PocketMine-Mod
 
-## Servers to Use PocketMine-Mod
-
-- pocketjava.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
-- betamine.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
-- brtest.ddns.net : 19132   [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
