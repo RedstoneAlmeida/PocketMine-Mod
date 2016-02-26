@@ -1,9 +1,5 @@
 # PocketMine-Mod
 JavaScript Minecraft PocketEdition Mod from BlockLauncher based in PocketMine-MP 
-
-## Status
-
- [![Travis Build](https://travis-ci.org/ImagicalMine/ImagicalMine.svg)](https://github.com/RedstoneAlmeida/PocketMine-Mod)
  
 ## Baixar
 - https://github.com/RedstoneAlmeida/PocketMine-Mod/archive/master.zip
