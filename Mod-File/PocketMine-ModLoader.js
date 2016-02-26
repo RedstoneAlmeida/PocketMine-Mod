@@ -1,3 +1,5 @@
+print("Mod Loader Carregado")
+
 var ctx = com.mojang.minecraftpe.MainActivity.currentMainActivity.get();
 var blFree = false;
 
