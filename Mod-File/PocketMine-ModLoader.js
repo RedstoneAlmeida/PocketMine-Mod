@@ -1,5 +1,3 @@
-print("Mod Loader Carregado")
-
 var ctx = com.mojang.minecraftpe.MainActivity.currentMainActivity.get();
 var blFree = false;
 
@@ -95,17 +93,31 @@ const langs = {
 		cantEnable:"This mod cannot be enabled", 
 		cantDisable:"This mod cannot be disabled",
 		changeLogTitle:"Changelog"
+	}, 
+	ru:{
+		modList:"Список модов",
+		descName:"Название", 
+		descVer:"Версия", 
+		descAuth:"Автор", 
+		descID:"ID", 
+		descDesc:"Описание", 
+		enable:"Включить", 
+		disable:"Выключить", 
+		cantEnable:"Этот мод нельзя включить", 
+		cantDisable:"Этот мод нельзя выключить",
+		changeLogTitle:"Список изменений"
 	}
 }
 
 const lCLs = {
 	en:[["Added changelogs", "Added logs", "Added configs", "Removed \".neomod\" mod type", "Again fixed much bugs"]],
+	ru:[["Добавлены чейнджлоги", "Добавлены логи", "Добавлены конфиги", "Удалён тип модов \".neomod\"", "Снова пофиксили кучу багов"]]
 }
 
 var lang = langs.en;
 var CLs = lCLs.en;
 
-if (java.util.Locale.getDefault().getLanguage() == "eu") {
+if (java.util.Locale.getDefault().getLanguage() == "ru") {
 	lang = langs.ru;
 	CLs = lCLs.ru;
 }
@@ -114,17 +126,17 @@ var mods = [];
 var configs = [];
 var modsBtn = null;
 var trees = {}
-const MODS_DIR = "/games/PocketMineMod/plugins/"
-const CONFIG_DIR = "/games/PocketMineMod/configs/"
+const MODS_DIR = "/sdcard/games/PocketMineMod/plugins/";
+const CONFIG_DIR = "/sdcard/games/PocketMineMod/ModLoader/";
 java.io.File(CONFIG_DIR).mkdirs();
-const LOGS_DIR = "/games/PocketMineMod/logs/"
-const MOD_VERSION = "0.0.2 Alpha";
-const MOD_VERSIONDEV = "0.0.2";
+const LOGS_DIR = "/sdcard/games/PocketMineMod/logs/";
+const MOD_VERSION = "0.6.0 Alpha";
+const MOD_VERSIONDEV = "0.6.0";
 var LOG_FILE = "";
 
 var allVersions = [];
 var allVersionsUpdatenames = [];
-allVersions[0] = new Version("0.0.2");
+allVersions[0] = new Version("0.6.0");
 allVersionsUpdatenames[0] = "Big Update !!1!!";
 
 var chLogs = [];
@@ -625,8 +637,8 @@ var modsBtnO = {
 						var layout = new android.widget.RelativeLayout(ctx);
 					//	var img = android.util.Base64.decode(picB64Btn, 0);
 						var btn = new android.widget.TextView(ctx);
-						btn.setText("Моды");
-						btn.setTextSize(18);
+						btn.setText("ModLoader");
+						btn.setTextSize(20);
 						btn.setTextColor(android.graphics.Color.GRAY);
 					//	btn.setImageBitmap(android.graphics.BitmapFactory.decodeByteArray(img, 0, img.length));
 						btn.setOnClickListener(new android.view.View.OnClickListener({
@@ -673,6 +685,11 @@ function showModList() {
 				
 				modDesc.setNegativeButton("", new android.content.DialogInterface.OnClickListener() {
 					onClick:function(modDescDlg,bid) {
+						// Тут и должно быть пусто, так надо,
+						// это сделано специально, чтобы при 
+						// нажатии на Disable, не закрывалось 
+						// окно. Код ниже ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+						//--UsernameAK
 					}
 				});
 			showModList();
@@ -800,7 +817,6 @@ function loadMod(file) {
 	try {
 		net.zhuoweizhang.mcpelauncher.ScriptManager.loadScript(new java.io.File(MODS_DIR + file));
     } catch (e) {
-		net.zhuoweizhang.mcpelauncher.ScriptManager.loadScript(new java.io.File(MODS_DIR + file));
 		NML.Log.error(e);
     }
 }
@@ -864,12 +880,12 @@ function scan2loadMods(){
 	configs = [];
 	mods[mods.length] = {
 		modid:"NML",
-		file:"PocketMineMod.js",
-		name:"PocketMineMod Loader",
+		file:"PocketMine-ModLoader.js",
+		name:"PocketMine-ModLoader",
 		ver:MOD_VERSION,
 		verDev:MOD_VERSIONDEV,
-		author:"Redstone",
-		full:"ModLoader v" + MOD_VERSION,
+		author:"RedstoneAlmeida",
+		full:"PocketMine-ModLoader v" + MOD_VERSION,
 		desc:"Mod loader",
 		disabled:false
 	}
