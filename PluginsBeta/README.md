@@ -4,7 +4,7 @@
 
 - Instalação do SimpleAuth:
 
-Importe a pasta SimpleAuthSounds para "/sdcard/PocketMineMod/plugins/"
+Importe a pasta SimpleAuthSounds para "/sdcard/games/PocketMineMod/plugins/"
 Instale o SimpleAuth em seu BlockLauncher e jogue
 
 - Instalação do WorldEdit:
@@ -28,7 +28,7 @@ Instale o Hard Survival em seu BlockLauncher e jogue
 
 - Installation of SimpleAuth:
 
-SimpleAuth the Sounds folder to "/sdcard/PocketMineMod/plugins/"
+SimpleAuth the Sounds folder to "/sdcard/games/PocketMineMod/plugins/"
 Install SimpleAuth on your BlockLauncher and play
 
 - Installation of WorldEdit:
