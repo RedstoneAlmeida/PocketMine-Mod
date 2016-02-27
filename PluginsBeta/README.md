@@ -19,6 +19,10 @@ Instale o HardCore Plugin v1.0 em seu BlockLauncher e jogue
 
 Instale o HardCore Plugin v2.0 em seu BlockLauncher e jogue
 
+- Instalação do Hard Survival:
+
+Instale o Hard Survival em seu BlockLauncher e jogue
+
 
 ## English / Inglês
 
@@ -38,3 +42,7 @@ Install HardCore Plugin v1.0 on your BlockLauncher and play
 - Installation of HardCore Plugin v2.0:
 
 Install HardCore Plugin v2.0 on your BlockLauncher and play
+
+- Installation of Hard Survival:
+
+Install Hard Survival on your BlockLauncher and play
