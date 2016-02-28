@@ -1,9 +1,10 @@
 print("PocketMine-Mod Carregado com Sucesso");
 print("Use /help 1 para ver os comandos");
 
-var codeVersion = 0.3;
+var codeVersion = 0.4;
 var codeName = PocketMine-Mod;
-var codeProtocol = 43;
+var codeProtocol = 44;
+var proxyBeta = 341;
 
 function procCmd(cmd){
 	var cmd = cmd.split(" ")
@@ -114,6 +115,10 @@ function procCmd(cmd){
 														if(cmd[1] == "slow"){
 															ModPE.setGameSpeed(5);
 															}
+															}
+															if(cmd[0] == "op"){
+																clientMessage("You are now OP");
+																
 															}
 															if(cmd[0] == "explode"){
 																explode(Player.getX(), Player.getY(), Player.getZ(), 10);
