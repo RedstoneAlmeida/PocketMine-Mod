@@ -1,5 +1,6 @@
 var nameClass = PluginCommand;
 var client = 1.0;
+var plugins = pathPlugins;
 
 function procCmd(cmd){
 	var cmd = cmd.split(" ");
