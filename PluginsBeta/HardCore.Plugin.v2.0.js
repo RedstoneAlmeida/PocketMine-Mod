@@ -1,5 +1,6 @@
 var canWearArmorEntity = [EntityType.ZOMBIE, EntityType.SKELETON];
 var armorRandom = Math.floor(Math.random * 3) + 1;
+var codeName = Hard;
 
 function newLevel(){
     if(Level.getGameMode() != 1){
