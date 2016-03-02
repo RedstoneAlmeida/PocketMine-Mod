@@ -38,21 +38,6 @@ function procCmd(cmd){
 		
 		Level.setSpawn(x, y, z);
 	}
-		if(cmd[0] == "tpadd"){
-		var tpX = getPlayerX();
-		var tpY = getPlayerY();
-		var tpZ = getPlayerZ();
-		
-		clientMessage("Teleport adicionado em:");
-		clientMessage("X: " + Math.round(Player.getX()) + " , Y: " + Math.round(Player.getY()) + " , Z: " + Math.round(Player.getZ()));
-		clientMessage("Usa §c/teleport §fpra transportar");
-		clientMessage("As coordenadas estão salvas");
-	}
-	
-	if(cmd[0] == "teleport"){
-		clientMessage("Teportando...");
-		setPosition(getPlayerEnt(), tpX, tpY+1,tpZ);
-	}
 			if(cmd[0] == "time"){
 				if(cmd[1] == "set"){
 					if(cmd[2] == "day"){
